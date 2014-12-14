@@ -1,0 +1,16 @@
+{
+    "contents" : "Coursera Data Science Specialization\n========================================================\nCapstone Project: **Text Prediction Apps**\n\nDate: 14-Dec-2014\n\nIntroduction\n========================================================\n**Target Product**\n\nAn app that takes a phrase (multiple words) as input in a text box input and outputs a prediction of the next word. We will call this product as `text next`. \n<br>Data set: Corpus of news, blogs & twitter \n\n**Strategy**\n- N-Grams with 25 MB on disk and 100 MB in memory.\n- Target 3 predictions per sec(locally) & 15% accuracy.\n- Python, map-reduce, streaming & Imapala for data processing.\n- R Shiny to build the final product & host on shinyapps.io\n\n\nAlgorithm\n========================================================\n![Algorithm](DS_Capstone_presentation-figure/algorithm.png)\n\nEvaluation\n========================================================\n\n![Model Summary](DS_Capstone_presentation-figure/table1.png)\n\n![Model Summary](DS_Capstone_presentation-figure/table2.png)\n\n![prediction test chart](DS_Capstone_presentation-figure/prediction_test.png)\n\nFeatures\n========================================================\n- Simple and Easy to use. Detail instructions are given along with the apps.\n- Enter the input text and then enter a space(' ') for next word prediction.\n- Shows and highlights the top predicted word. Also shows all top 3 predictions.   \n- The top predicted word can be added in the input text area  by pressing the escape key (`Esc`).\n- As future improvement, will use faster searching & compression algorithms and try better NLP models to improve prediction.\n- Apps link: https://obaid.shinyapps.io/textPredictShiny/\n\n\n",
+    "created" : 1418550977911.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3825634122",
+    "id" : "C165B95F",
+    "lastKnownWriteTime" : 1418562547,
+    "path" : "C:/MyRoot/work/BigData/DataScience/Coursera Johns Hopkins Specialization in Data Science/Course Works/Capstone Project/Presentation/DS_Capstone_presentation.Rpres",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_presentation"
+}
